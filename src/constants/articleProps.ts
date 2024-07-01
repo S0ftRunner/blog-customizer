@@ -168,6 +168,7 @@ export const fontSizeOptions: OptionType[] = [
 	{ title: '38px', value: '38px', className: 'font-size-38' },
 ];
 
+// дефолтные настройки страницы
 export const defaultArticleState = {
 	fontFamilyOption: fontFamilyOptions[0],
 	fontColor: fontColors[0],
@@ -176,4 +177,5 @@ export const defaultArticleState = {
 	fontSizeOption: fontSizeOptions[0],
 };
 
+// скорее всего это стоит передавать в наше приложение
 export type ArticleStateType = typeof defaultArticleState;
