@@ -103,7 +103,7 @@ export const ArticleParamsForm = (props: ArticleParamsFormProps) => {
 						title='ширина контента'
 						selected={formState.contentWidth}
 						options={contentWidthArr}
-						onChange={handleChangeField('contentWidthArr')}></Select>
+						onChange={handleChangeField('contentWidth')}></Select>
 					<div className={styles.bottomContainer}>
 						<Button title='Сбросить' type='reset' />
 						<Button title='Применить' type='submit' />
